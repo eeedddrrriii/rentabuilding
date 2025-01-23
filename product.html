@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renta Building Etalase</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50; /* Light green color */
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .building-etalase {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+        .building-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 400px;
+            text-align: center;
+        }
+        .building-card img {
+            width: 100%;
+            height: auto;
+        }
+        .building-info {
+            padding: 1rem;
+        }
+        .building-info h2 {
+            margin: 0.5rem 0;
+        }
+        .building-info p {
+            margin: 0.5rem 0;
+        }
+        .rent-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            margin-top: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .rent-button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Renta Building</h1>
+        <p>1 Available Building</p>
+    </header>
+    <main>
+        <section class="building-etalase"></section>
+            <div class="building-card">
+                <img src="https://www.sutomo-mdn.sch.id/img/intro2.jpg" alt="Medan Building">
+                <div class="building-info">
+                    <h2>Sutomo Heritage Hall</h2>
+                    <p><strong>Location:</strong> Jl. LetKol Martinus No.7, Pusat Ps., Kec. Medan Kota, Kota Medan, Sumatera Utara 20212</p>
+                    <p><strong>Size:</strong> 100 sq ft</p>
+                    <a href="index.html">
+                        <button class="rent-button">Rent Now</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
